@@ -1,0 +1,146 @@
+header {
+    text-align: center;
+}
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+nav a {
+  text-align: center;
+}
+
+#hero-msg h1, #hero-msg h4 {
+  text-align: center;
+}
+
+.button-box {
+  text-align: center;
+}
+
+main section {
+  text-align: center;
+}
+#background {
+  height: 725px;
+}
+/* Set the background color of the body */
+body {
+  background-color: #617694;
+}
+
+/* Set the background color of the header */
+header {
+  background-color: #1f304b;
+}
+
+/* Set the background color of nav links on hover */
+nav a:hover {
+  background-color: #223959 ;
+}
+
+/* Set the background color of the book and join buttons */
+.book, .join {
+  background-color: #94999e;
+}
+
+/* Set the background color of the book and join buttons on hover */
+.book:hover, .join:hover {
+  background-color: #F8D557;
+}
+
+/* Set the background color and height of the background div */
+#background {
+  background-color: #94999e;
+  height: 725px;
+}
+
+/* Set the background color of the message section */
+.msg {
+  background-color: #94999e;
+}
+
+/* Set the background color of the footer */
+footer {
+  background-color: #1f304b;
+}
+nav a {
+color: #ffffff;
+}
+
+/* Set the font color for all navigation links */
+nav a {
+    color: #ffffff;
+    }
+    
+    /* Set the font color for navigation links when hovered over */
+    nav a:hover {
+    color: #F8D557;
+    }
+    
+    /* Set the font color for the home title */
+    .home-title {
+    color: #F8D557;
+    }
+    
+    /* Set the font color for all h4 tags */
+    h4 {
+    color: #ffffff;
+    }
+    
+    /* Set the font color for the book and join buttons */
+    .book, .join {
+    color: #ffffff;
+    }
+    
+    /* Set the font color for the book and join buttons when hovered over */
+    .book:hover, .join:hover {
+    color: #ffffff;
+    }
+    
+    /* Set the font color for the message section heading */
+    .msg h2 {
+    color: #F8D557;
+    }
+    
+    /* Set the font color for the message section paragraph */
+    .msg p {
+    color: #ffffff;
+    }
+    
+    /* Set the font color for the footer */
+    footer {
+    color: #ffffff;
+    }
+    
+    /* Set the font color for links in the footer */
+    footer a {
+    color: #ffffff;
+    }
+    
+    /* Set the font color for links in the footer when hovered over */
+    footer a:hover {
+    color: #F8D557;
+    }
+    .icon {
+        width: 65px;
+    }
+    .logo {
+        width: 150px;
+
+    }
+    
+    #hero-img {
+        width: 100%;
+    }
+    nav a,
+.book, 
+.join,
+footer a {
+  text-decoration: none;
+}
+footer p {
+    font-size: 1.2em;
+}    
+footer p a:hover {
+    text-decoration: underline;
+}    
