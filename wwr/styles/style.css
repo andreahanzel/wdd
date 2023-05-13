@@ -1,6 +1,4 @@
-header {
-    text-align: center;
-}
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -125,8 +123,7 @@ nav a {
         width: 65px;
     }
     .logo {
-        width: 150px;
-
+        width: 80px;
     }
     
     #hero-img {
