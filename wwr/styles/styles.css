@@ -42,7 +42,7 @@ header {
 #hero-box {
   grid-column: 1/4;
   grid-row: 1/3;
- 
+  z-index: -1;
  
 }
 
@@ -55,7 +55,7 @@ header {
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
-  
+
 }
 
 #hero-box img {
