@@ -106,6 +106,7 @@ nav a { /*keep*/
   text-align: center;
   color: #ffffff;
   padding: 35px;
+  font-size: 1.3em;
   
 }
 
@@ -216,14 +217,14 @@ p {
 #hero-msg h1 { /*keep*/
   text-align: center;
   color: #F8D557;
-  margin-top: 75px;
+  margin-top: 170px;
 
 }
 
 #hero-msg h2 { /*keep*/
   text-align: center;
   color: white;
-  margin-top: 260px;
+  margin-top: 170px;
   font-size: 2em;
 
 }
@@ -273,6 +274,8 @@ footer p {
   
   }
   
+    
+
 
 footer p a:hover { /*keep*/
   text-decoration: underline;
