@@ -266,8 +266,13 @@ footer p { /*keep*/
   font-size: 1.2em;
   background-color: transparent;
   
-
 }
+
+footer p {
+    font-size: 1.2em;
+  
+  }
+  
 
 footer p a:hover { /*keep*/
   text-decoration: underline;
