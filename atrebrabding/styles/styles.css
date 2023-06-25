@@ -179,3 +179,12 @@ footer .row {
 .footer-bottom {
     margin-top: 30px; 
 }
+
+.site-plan-link {
+    color: #f0ebe1; 
+    text-decoration: none;
+}
+
+.site-plan-link:hover {
+    font-size: 1.2em;
+}
