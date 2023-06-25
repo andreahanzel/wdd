@@ -1,0 +1,281 @@
+:root {
+    --nav-hover-link-color: #f0ebe1; 
+    --nav-hover-background-color: rgba(49, 48, 48, 0.5);
+    --button-hover-link-color: #f0ebe1; 
+    --button-hover-background-color: rgba(49, 48, 48, 0.5); 
+  }
+
+
+body {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+
+#content {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding:0%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    margin: 0;
+}
+
+
+.logo {
+    max-width: 140px; 
+}
+
+#logo_link {
+    flex: 0 0 auto;
+    
+}
+
+
+
+nav {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+ 
+}
+
+nav a {
+    margin-left: 10px;
+    margin-right: 60px;
+    color: #f0ebe1;
+    text-decoration: none; 
+    padding-bottom: 5px; 
+    border-bottom: none;
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+
+}
+
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #808080;
+    color: #f0ebe1;
+    text-decoration: none;
+}
+
+.top-header {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: -60px;
+    font-size: 80px;
+    grid-column: 1/11;
+}
+
+
+h2 {
+    margin: 0;
+    color: #f0ebe1;
+    
+  }
+  
+  main section {
+    text-align: center;
+  
+  }
+  
+  main section img {
+    box-sizing: border-box;
+    filter: grayscale(100%);
+  
+  }
+
+  main section h2 {
+    margin-top: 15px;
+  }
+
+  main section p {
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-top: 15px;
+}
+
+  
+  .home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 20px;
+    bottom: 20px;
+   
+  }
+  
+  .branding-card, .growth-card, .socials-card {
+    margin: 200px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  .card-img {
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px rgb(30, 30, 31);
+    width: 100%;
+  
+  }
+  
+  .card-img:hover {
+    opacity: 0.6;
+    transform: scale(1.1);
+  
+  }
+  
+  .branding-card {
+    grid-column: 2/4;
+    grid-row: 2/3;
+  
+  }
+  
+  .growth-card {
+    grid-column: 5/7;
+    grid-row: 2/3;
+  
+  }
+  
+  .socials-card {
+    grid-column: 8/10;
+    grid-row: 2/3;
+  
+  }
+  
+  .branding-card,
+  .growth-card,
+  .socials-card {
+    margin: 100px 0; 
+  }
+  
+
+#home {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 10vh;
+}
+
+#home-content {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .button {
+    margin: auto;
+  }
+  
+
+
+.button a {
+    display: inline-block;
+    color: #f0ebe1;
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: 8px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+.button a:hover {
+    color: var(--button-hover-link-color);
+    background-color: rgb(61, 59, 59);
+    background-size:0%;
+    transform: scale(1.1);
+    
+}
+
+
+
+.copyright {
+    color: #f0ebe1;
+    margin-bottom: -50px;
+    margin-top: 100px;
+
+} 
+
+
+.social {
+    margin-top: 25px;
+        }
+
+.social a {
+    margin-right: 10px;
+}
+
+
+.social img {
+    width: 35px; 
+    
+}
+
+.col-six {
+    position: fixed;
+    bottom: 30px;
+    left: 10px;
+}
+
+.col-six .copyright {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding:0%;
+    color: #f0ebe1;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    height: 95px;
+    
+}
+
+footer .row {
+    filter: brightness(70%);
+}
+
+
+#go-top {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#go-top a {
+    color: #f0ebe1;
+    text-decoration: none;
+}
+
+

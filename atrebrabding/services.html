@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/servicestyles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AT REBRAND | Services</title>
+    <style>
+
+        .hidden-header {
+            transform: translateY(-100%);
+            transition: transform 0.4s ease;
+        }
+    </style>
+    <script>
+        window.addEventListener('scroll', function() {
+            var header = document.querySelector('header');
+            if (window.pageYOffset > 0) {
+                header.classList.add('hidden-header');
+            } else {
+                header.classList.remove('hidden-header');
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/logowhite.png" alt="AT Brand Logo"> 
+            </a>
+            <nav> 
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        
+
+        <main class="home-grid">
+            
+            <section class="branding-card">
+                <img class="card-img" src="images/branding.jpg" alt="Rebranding">
+                <h2>Branding and Rebranding</h2>
+                <p>We are specialized in crafting and revitalizing brands. Whether you're starting from scratch or looking to refresh your brand, our team provide comprehensive branding and rebranding solutions that capture your unique identity and resonate with your target audience.</p>
+            <div id="home">
+                    <div id="home-content">
+                        <div class="button">
+                            <a class="Book" href="contact.html">Book a Consultation</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="top-header">
+                <h>Services</h>
+            </section>
+
+            <section class="growth-card">
+                <img class="card-img" src="images/growth.jpg" alt="Growth">
+                <h2>Market Research and Analysis</h2>
+                <p>Gain valuable insights into your industry and target market with our market research and analysis services. We employ advanced research methodologies and data-driven approaches to help you make informed business decisions, identify market trends, understand consumer behavior, and uncover growth opportunities.</p>
+                <div id="home">
+                    <div id="home-content">
+                        <div class="button">
+                            <a class="Book" href="contact.html">Book a Consultation</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="socials-card">
+                <img class="card-img" src="images/socials.jpg" alt="Social">
+                <h2>Social Media and Content Marketing</h2>
+                <p>Maximize your online presence and engage with your audience through our social media and content marketing services. From creating compelling content to managing social media platforms, we develop effective strategies to increase brand visibility, drive website traffic, and foster meaningful connections with your customers.
+                </p>
+                <div id="home">
+                    <div id="home-content">
+                        <div class="button">
+                            <a class="Book" href="contact.html">Book a Consultation</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <footer>
+            <div class="row">
+                <div class="social">
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="images/facebook.png" alt="fb icon">
+                    </a>  
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="images/instagram.png" alt="instagram icon">
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="images/twitter.png" alt="twitter icon">
+                    </a>          
+                </div>
+                <div class="col-six tab-full">
+                    <div id="go-top">
+                        <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2023 AT Branding. All rights reserved. | Design by Andrea Toreki</span>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+</html>

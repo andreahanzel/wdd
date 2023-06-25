@@ -1,0 +1,354 @@
+:root {
+    --nav-hover-link-color: #f0ebe1; 
+    --nav-hover-background-color: rgba(49, 48, 48, 0.5);
+    --button-hover-link-color: #f0ebe1; 
+    --button-hover-background-color: rgba(49, 48, 48, 0.5); 
+  }
+
+  
+
+body {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+
+#content {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding:0%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    margin: 0;
+}
+
+
+.logo {
+    max-width: 140px; 
+}
+
+#logo_link {
+    flex: 0 0 auto;
+    
+}
+
+
+
+nav {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+ 
+}
+
+nav a {
+    margin-left: 10px;
+    margin-right: 60px;
+    color: #f0ebe1;
+    text-decoration: none; 
+    padding-bottom: 5px; 
+    border-bottom: none;
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+
+}
+
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #808080;
+    color: #f0ebe1;
+    text-decoration: none;
+}
+
+
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+    background-color:#808080;
+    flex-direction: column;
+
+}
+
+section::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    
+}
+ 
+
+.container .contactInfo
+{
+    display:inline;
+    position: fixed;
+    left: 110px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 350px; 
+    height: calc(100% - 500px);
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+    padding: 40px;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 10px 5px #808080;
+    border-radius: 22px;
+}
+
+.container .contactInfo h2
+{
+    color: #f0ebe1;
+    font-size: 38px;
+    
+}
+
+.container .contactInfo ul.info 
+{
+   position: relative;
+   margin: 10px 0; 
+}
+
+.container .contactInfo ul.info li
+{
+   position: relative;
+   list-style: none;
+   display: flex;
+   margin: 20px 0;
+   cursor: pointer;
+   align-items: flex-start;
+}
+
+.container .contactInfo ul.info li span:nth-child(1)
+{
+    width: 5px;
+    min-width: 5px;
+
+}
+
+.container .contactInfo ul.info li span a {
+    color: #f0ebe1;
+    text-decoration: none;
+    width: 10px;
+    min-width: 10px; 
+}
+
+.container .contactInfo ul.info li span:nth-child(1) img
+{
+    max-width: 100%;
+    filter: invert(1);
+}
+
+.container .contactInfo ul.info li span:nth-child(2)
+{
+    color: #f0ebe1;
+    margin-left: 10px;
+    font-weight: 200;
+}
+
+.container .contactInfo ul.sci
+{
+    position: relative;
+    display: flex;
+}
+
+.container .contactInfo ul.sci li
+{
+   list-style: none;  
+   margin-right: 15px;
+}
+
+.container .contactInfo ul.sci li a
+{
+   text-decoration: none;
+}
+
+.container .contactInfo ul.sci li a img
+{
+   filter: invert(1);
+}
+
+.container .contactForm {
+    position: fixed;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 40px;
+    width: calc(80% - 400px);
+    height: 45%;
+    background: #f0ebe1;
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    margin-top: 20px;
+}
+
+.container .contactForm h2 {
+    color: rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container .contactForm .formBox {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.container .contactForm .formBox .inputBox {
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.container .contactForm .formBox .inputBox.w50 {
+    width: 45%;
+}
+
+.container .contactForm .formBox .inputBox.w100 {
+    width: 100%;
+}
+
+.container .contactForm .formBox .inputBox input,
+.container .contactForm .formBox .inputBox textarea {
+    width: 100%;
+    resize: none;
+    padding: 4px 0;
+    font-size: 16px;
+    font-weight: 300;
+    color: #333;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #777;
+}
+
+.container .contactForm .formBox .inputBox textarea {
+    height: 100px;
+}
+
+.container .contactForm .formBox .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 4px 0;
+    pointer-events: none;
+    font-size: 16px;
+    font-weight: 300;
+    transition: 0.3s;
+}
+
+.container .contactForm .formBox .inputBox input:focus ~ span,
+.container .contactForm .formBox .inputBox input:valid ~ span,
+.container .contactForm .formBox .inputBox textarea:focus ~ span,
+.container .contactForm .formBox .inputBox textarea:valid ~ span {
+    transform: translateY(-16px);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #333;
+    font-weight: 500;
+}
+
+.container .contactForm .formBox .inputBox input[type="submit"] {
+    position: relative;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    max-width: 120px;
+    padding: 10px;
+}
+
+.container .contactForm .formBox .inputBox input[type="submit"]:hover {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.copyright {
+    color: #f0ebe1;
+    margin-bottom: -50px;
+    margin-top: 100px;
+
+} 
+
+
+.social {
+    margin-top: 25px;
+        }
+
+.social a {
+    margin-right: 10px;
+}
+
+
+.social img {
+    width: 35px; 
+    
+}
+
+.col-six {
+    position: fixed;
+    bottom: 30px;
+    left: 10px;
+}
+
+.col-six .copyright {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding:0%;
+    color: #f0ebe1;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    height: 95px;
+    
+}
+
+footer .row {
+    filter: brightness(70%);
+}
+
+
+#go-top {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#go-top a {
+    color: #f0ebe1;
+    text-decoration: none;
+}
+
+
