@@ -105,13 +105,13 @@ section::before
 
 .container .contactInfo
 {
-    display:inline;
+    
     position: fixed;
-    left: 110px;
+    left: 50px;
     top: 50%;
     transform: translateY(-50%);
     width: 350px; 
-    height: calc(100% - 500px);
+    height: calc(100% - 530px);
     background: rgba(0, 0, 0, 0.9);
     z-index: 1;
     padding: 40px;
