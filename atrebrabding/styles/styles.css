@@ -101,14 +101,14 @@ nav a {
   border-radius: 5px;
   background-color: #808080;
   color: #f0ebe1;
-  font-size: 20px;
+  font-size: 18px;
 
 }
 
 .button a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-
+  color: #f0ebe1;
+  background-color: rgba(49, 48, 48, 0.5);
+  box-shadow: 5px 20px 10px black;
 }
 
 #home {
