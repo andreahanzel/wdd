@@ -171,8 +171,7 @@
   #text-box h2:hover,
   #text-box2 h2:hover,
   #text-box3 h2:hover,
-  #text-box4 h2:hover
-   {
+  #text-box4 h2:hover {
     opacity: 0.9;
     transform: scale(1.1);
 
@@ -250,3 +249,8 @@
     color: #f0ebe1;
   }
   
+
+  .site-plan-link {
+    color: #f0ebe1;
+    text-decoration: none;
+  }

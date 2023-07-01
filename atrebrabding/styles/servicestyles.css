@@ -250,3 +250,8 @@ footer .row {
 .footer-bottom {
   margin-top: 20px;
 }
+
+.site-plan-link {
+  color: #f0ebe1;
+  text-decoration: none;
+}
