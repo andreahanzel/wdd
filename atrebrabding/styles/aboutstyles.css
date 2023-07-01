@@ -1,9 +1,23 @@
-:root {
-    --nav-hover-link-color: #f0ebe1;
-    --nav-hover-background-color: rgba(49, 48, 48, 0.5);
-    --button-hover-link-color: #f0ebe1;
-    --button-hover-background-color: rgba(49, 48, 48, 0.5);
-  }
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Stint+Ultra+Expanded&family=Tenor+Sans&display=swap');
+
+
+
+ :root {
+  --nav-hover-link-color: #f0ebe1;
+  --nav-hover-background-color: #313030;
+  --button-hover-link-color: #f0ebe1;
+  --button-hover-background-color: rgba(49, 48, 48, 0.5);
+  --headline-color-on-white: #313030;  
+  --headline-color-on-color: #f0ebe1; 
+  --paragraph-color-on-white:  #000000;  
+  --paragraph-color-on-color: #f0ebe1; 
+  --paragraph-background-color: #8A8988;
+  --nav-link-color: #f0ebe1;
+  --nav-background-color: #313030;
+  --nav-hover-link-color: #f0ebe1;
+  --nav-hover-background-color: #8A8988;
+
+}
   
   body {
     margin: 0;
@@ -27,6 +41,9 @@
     width: 100%;
     z-index: 2;
     margin: 0;
+    font-size: 16px;
+    font-family: 'Tenor Sans', Quicksand;
+
   }
   
   .logo {
@@ -38,24 +55,36 @@
   }
   
   nav {
-    flex: 1 1 auto;
+    grid-column: 3;
     display: flex;
     justify-content: flex-end;
     padding-right: 20px;
+    font-size: 18px;
+    
+  
+  }
+  
+  
+  nav a:hover {
+    color: #f0ebe1;
+    background-color: rgba(49, 48, 48, 0.5);
+  
   }
   
   nav a {
-    margin-left: 10px;
-    margin-right: 60px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #808080;
     color: #f0ebe1;
     text-decoration: none;
+    margin-left: 10px;
+    margin-right: 60px;
     padding-bottom: 5px;
     border-bottom: none;
-  }
+    font-size: 18px;
+    font-family: 'Tenor Sans', Quicksand;
   
-  nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
   }
   
   nav a,
@@ -73,16 +102,19 @@
     align-items: center;
     height: 80vh;
     margin: 0 auto;
-    background-color: #808080;
+    background-color: white;
   }
   
   h2 {
-    color: rgb(30, 30, 31);
+   
+    font-size: 85px;
+    font-family: 'Stint Ultra Expanded', 'Tenor Sans';
   }
   
-  p,
-  p2 {
+  p {
     color: #f0ebe1;
+    font-family: Quicksand, 'Stint Ultra Expanded', 'Tenor Sans';
+   
   }
   
   #image1,
@@ -93,6 +125,7 @@
     height: auto;
     margin: 10px;
     box-shadow: 5px 5px 10px rgb(30, 30, 31);
+    border-radius: 5px;
   }
   
   #text-box,
@@ -105,6 +138,7 @@
     justify-content: center;
     text-align: center;
     margin-bottom: 20px;
+
   }
   
   #text-box h2,
@@ -114,18 +148,28 @@
     font-size: 72px;
     margin-bottom: 5px;
     margin-top: 0;
+    color:#000000;
+    
   }
   
   #text-box p,
   #text-box2 p,
   #text-box3 p,
   #text-box4 p {
-    font-size: 18px;
+    font-size: 17px;
     margin-top: 0;
   }
   
-  #text-box3 {
+  #text-box3,
+  #text-box2,
+  #text-box,
+  #text-box4 {
     background-color: #808080;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgb(30, 30, 31);
+    margin-left: auto;
+    border-radius: 5px;
+    text-align: justify;
   }
   
   .footer-bottom {
@@ -187,5 +231,8 @@
   
   .footer-bottom {
     margin-top: 20px;
+    font-family: Quicksand;
+    font-size: 12px;
+    color: #f0ebe1;
   }
   
