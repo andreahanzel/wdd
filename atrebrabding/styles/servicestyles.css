@@ -243,31 +243,6 @@ section {
   align-items: center;
 }
 
-.button {
-  display: inline-block;
-  text-decoration: none;
-  padding: 5px 5px;
-  font-family: 'Tenor Sans', Quicksand;
-  margin-top: 40px;
-  
-}
-
-.button a {
-  padding: 8px 10px;
-  border-radius: 10px;
-  text-decoration: none;
-  border-radius: 5px;
-  background-color: rgb(30, 30, 31);
-  color: #f0ebe1;
-  font-size: 16px;
-
-}
-
-.button a:hover {
-  color: #f0ebe1;
-  background-color: rgba(49, 48, 48, 0.5);
-  box-shadow: 5px 20px 10px rgb(100, 98, 98);
-}
 
 .footer-bottom {
   color: #f0ebe1;
