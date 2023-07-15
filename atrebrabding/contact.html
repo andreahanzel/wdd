@@ -28,45 +28,69 @@
                         <h2>Contact Info</h2>
                         <ul class="info">
                             <li>
-                                <span><img src="images/email.png?" alt="Email Icon"></span>
-                                <span><a href="mailto:trky.andrea@gmail.com">trky.andrea@gmail.com</a></span>
+                                <a href="mailto:trky.andrea@gmail.com">
+                                    <img src="images/email.png" alt="Email Icon">
+                                </a>
+                                <h3>trky.andrea@gmail.com</h3>
                             </li>
                             <li>
-                                <span><img src="images/phone.png" alt="Phone Icon"></span>
-                                <span>+ 1 (510) 604 0802</span>
+                                <a href="tel:+15106040802">
+                                    <img src="images/phone.png" alt="Phone Icon">
+                                </a>
+                                <h4>+ 1 (510) 604 0802</h4>
                             </li>
                         </ul>
                     </div>
                 </div>
+
                 
                 <div class="contactForm">
                     <h2>Send a Message</h2>
-                    <div class="formBox">
-                        <div class="inputBox w50">
-                            <input type="text" name="first-name" required>
-                            <span>First Name</span>
+                    <form id="myForm" action="mailto:trky.andrea@gmail.com" method="post">
+                        <div class="formBox">
+                            <div class="inputBox w50">
+                                <input type="text" name="first-name" required>
+                                <span>First Name</span>
+                            </div>
+                            <div class="inputBox w50">
+                                <input type="text" name="last-name" required>
+                                <span>Last Name</span>
+                            </div>
+                            <div class="inputBox w50">
+                                <input type="email" name="email" required>
+                                <span>Email Address</span>
+                            </div>
+                            <div class="inputBox w50">
+                                <input type="text" name="phone" required>
+                                <span>Phone Number</span>
+                            </div>
+                            <div class="inputBox w100">
+                                <textarea name="message" required></textarea>
+                                <span>Write your message here...</span>
+                            </div>
+                            <div class="inputBox w100">
+                                <input type="submit" value="Send">
+                            </div>
                         </div>
-                        <div class="inputBox w50">
-                            <input type="text" name="last-name" required>
-                            <span>Last Name</span>
-                        </div>
-                        <div class="inputBox w50">
-                            <input type="email" name="email" required>
-                            <span>Email Address</span>
-                        </div>
-                        <div class="inputBox w50">
-                            <input type="text" name="phone" required>
-                            <span>Phone Number</span>
-                        </div>
-                        <div class="inputBox w100">
-                            <textarea name="message" required></textarea>
-                            <span>Write your message here...</span>
-                        </div>
-                        <div class="inputBox w100">
-                            <input type="submit" value="Send">
-                        </div>
-                    </div>
+                    </form>
                 </div>
+                
+                <script>
+                    document.getElementById("myForm").addEventListener("submit", function(event) {
+                        // Prevent the default form submission behavior
+                        event.preventDefault();
+                        
+                        // Clear input fields and textarea
+                        document.getElementsByName("first-name")[0].value = "";
+                        document.getElementsByName("last-name")[0].value = "";
+                        document.getElementsByName("email")[0].value = "";
+                        document.getElementsByName("phone")[0].value = "";
+                        document.getElementsByName("message")[0].value = "";
+                        
+                        // Alternatively, you can reset the entire form using the following line:
+                        // document.getElementById("myForm").reset();
+                    });
+                </script>
             </div>
         </section>
 
