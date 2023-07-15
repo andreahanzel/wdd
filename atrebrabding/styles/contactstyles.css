@@ -149,7 +149,7 @@ section::before
     top: 50%;
     transform: translateY(-50%);
     width: 350px; 
-    height: calc(100% - 530px);
+    height: calc(100% - 480px);
     background:#000000;
     z-index: 1;
     padding: 40px;
