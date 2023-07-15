@@ -254,7 +254,7 @@ section::before
     color: #313030;
     border: none;
     outline: none;
-    border-bottom: 1px solid #777;
+    border-bottom: 1px solid #050D18;
     font-family: 'Stint Ultra Expanded', 'Tenor Sans';
     font-size: 13px;
 }
@@ -287,7 +287,7 @@ section::before
     font-size: 10px;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #333;
+    color: #050D18;
     font-weight: 500;
     color:#313030;
     font-family: 'Stint Ultra Expanded', 'Tenor Sans';
