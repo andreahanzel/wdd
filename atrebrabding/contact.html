@@ -77,18 +77,17 @@
                 
                 <script>
                     document.getElementById("myForm").addEventListener("submit", function(event) {
-                        // Prevent the default form submission behavior
+                        
                         event.preventDefault();
                         
-                        // Clear input fields and textarea
+                        
                         document.getElementsByName("first-name")[0].value = "";
                         document.getElementsByName("last-name")[0].value = "";
                         document.getElementsByName("email")[0].value = "";
                         document.getElementsByName("phone")[0].value = "";
                         document.getElementsByName("message")[0].value = "";
                         
-                        // Alternatively, you can reset the entire form using the following line:
-                        // document.getElementById("myForm").reset();
+                       
                     });
                 </script>
             </div>
